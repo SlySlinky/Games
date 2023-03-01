@@ -1,3 +1,5 @@
-# Games
+# Ideas
 
-###### This is a readme!
+## Slot Machine Casino
+
+## Chess Game
