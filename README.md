@@ -1,6 +1,6 @@
 # Ideas
 
-## Slot Machine Casino
+## Casino Minigames
 
 ![Casino Menu](https://github.com/SlySlinky/Games/blob/main/images/CasinoMenuOutline.png?raw=true)
 
