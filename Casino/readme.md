@@ -2,7 +2,7 @@
 
 ## Description
 
-A game that includes a slot machine and possibly poker in the future.
+A game that includes a slot machine, blackjack and a roulette wheel.
 
 ## Class Diagram
 
