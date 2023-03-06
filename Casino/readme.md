@@ -2,7 +2,7 @@
 
 ## Description
 
-A game that includes a slot machine and possibly poker in the future.
+A casino-themed game comprised of a slot machine, craps, blackjack, roulette.
 
 ## Class Diagram
 
