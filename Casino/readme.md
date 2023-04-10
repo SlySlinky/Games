@@ -11,6 +11,10 @@
 
 ![Diagram](https://github.com/SlySlinky/Games/blob/main/images/ClassDiagramCasino.png?raw=true)
 
+## Variables
+
+###### Info here
+
 ## Notes
 
 ###### Play by selecting a game from the startup menu. You can return to the menu by selecting the home button in the top left corner of the screen.
