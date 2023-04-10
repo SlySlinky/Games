@@ -10,3 +10,25 @@
 ## Class Diagram
 
 ![Diagram](https://github.com/Sly Slinky/Games/blob/main/images/ClassDiagramCasino.png?raw=true)
+
+## Notes
+
+###### Play by selecting a game from the startup menu. You can return to the menu by selecting the home button in the top left corner of the screen.
+
+###### Each game has different rules:
+
+### Blackjack
+
+###### Info here
+
+### Roulette
+
+###### Info here
+
+### Craps
+
+###### Info here
+
+### Slots
+
+###### Info here
