@@ -1,5 +1,7 @@
 # Casino Collection
 
+## Render
+
 ## What it is
 
 * Casino-themed game comprised of a slot machine, craps, blackjack, roulette.
