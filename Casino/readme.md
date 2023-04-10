@@ -2,6 +2,8 @@
 
 ## Render
 
+!(Casino Menu)[github.com/SlySlilnky/Games/edit/main/images/CasinoMenu.png]
+
 ## What it is
 
 * Casino-themed game comprised of a slot machine, craps, blackjack, roulette.
