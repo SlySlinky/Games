@@ -9,7 +9,7 @@
 
 ## Class Diagram
 
-![Diagram](https://github.com/Sly Slinky/Games/blob/main/images/ClassDiagramCasino.png?raw=true)
+![Diagram](https://github.com/SlySlinky/Games/blob/main/images/ClassDiagramCasino.png?raw=true)
 
 ## Notes
 
