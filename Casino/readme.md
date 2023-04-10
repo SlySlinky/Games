@@ -1,8 +1,11 @@
 # Casino Games
 
-## Description
+## What it is
 
-A casino-themed game comprised of a slot machine, craps, blackjack, roulette.
+* A casino-themed game comprised of a slot machine, craps, blackjack, roulette.
+* 4 mini-games put into one package
+* Blackjack managed by bots
+* Money gained from each game with the goal of making the greatest amount possible.
 
 ## Class Diagram
 
