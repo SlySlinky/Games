@@ -2,7 +2,7 @@
 
 ## Render
 
-![Casino Menu](github.com/SlySlinky/Games/edit/main/images/CasinoMenu.png)
+![Casino Menu](github.com/SlySlinky/Games/blob/main/images/CasinoMenu.png)
 
 ## What it is
 
