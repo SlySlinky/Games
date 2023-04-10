@@ -9,11 +9,7 @@
 * Blackjack managed by bots.
 * Money gained from each game with the goal of making the greatest amount possible.
 
-## Class Diagram
-
-![Diagram](https://github.com/SlySlinky/Games/blob/main/images/ClassDiagramCasino.png?raw=true)
-
-## Variables
+## Classes and Variables
 
 ###### Info here
 
