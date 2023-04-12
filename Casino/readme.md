@@ -1,5 +1,15 @@
 # Casino Collection
 
+## People
+
+###### Dallin - programmer
+
+###### John - programmer
+
+###### Connor - graphics
+
+###### Theo - Github manager
+
 ## Render
 
 ![Casino Menu](https://github.com/SlySlinky/Games/blob/main/images/CasinoMenu.png?raw=true)
