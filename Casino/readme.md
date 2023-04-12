@@ -13,7 +13,7 @@
 
 ## Classes, Variables, and Functions
 
-###### Main - tick, button1, button2, button3, button4, button5, hit, stand, tickholder, crepe, game, Button - l, w, x, y, typeholder, button, rollover, Craps - roll dice
+###### Main - tick, button1, button2, button3, button4, button5, hit, stand, tickholder, crepe, game, Button - l, w, x, y, typeholder, button, rollover, Craps - rollDice
 
 ## Notes
 
@@ -27,12 +27,12 @@
 
 ### Roulette
 
-###### Info here
+###### 
 
 ### Craps
 
-###### Info here
+###### 
 
 ### Slots
 
-###### Info here
+###### 
