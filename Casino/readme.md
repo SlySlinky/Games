@@ -31,7 +31,7 @@
 ###### If the player busts, they immediately lose their bet.
 ###### After each player has played and either stood or busted, the dealer takes their turn. They can, again, either ‘HIT’ or ‘STAND’. If the dealer’s hand exceeds 21, all players who didn't bust win immediately - their bet is returned along with a matching amount from the dealer's bank.
 ###### If the dealer reaches a valid hand, the cards are totalled and each player’s hand is compared to the dealer’s. If the player scored higher than the dealer, they win. If the player ties with the dealer, the original bet is returned to the player. Otherwise, the player loses their bet.
-A perfect hand combines an ace with a 10, Jack, Queen or King and is known as a ‘Blackjack’.
+###### A perfect hand combines an ace with a 10, Jack, Queen or King and is known as a ‘Blackjack’.
 
 ### Roulette
 
