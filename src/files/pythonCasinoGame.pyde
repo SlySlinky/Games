@@ -56,10 +56,10 @@ def draw():
         roll1 = int(random(1,7))
         roll2 = int(random(1,7))
         print(roll1,roll2)
-        if tickholder < 120 + tick:
+        if tick < 60 + tickholder:
             crepe.rolldice(roll1,roll2)
         else:
-            crepe.rolldice(crepe.theroll1,crepel.theroll2)
+            crepe.rolldice(crepe.theroll1,crepe.theroll2)
         
     elif game == "Blackjack":
         background(0,220,70)
