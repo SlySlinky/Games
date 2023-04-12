@@ -45,7 +45,11 @@
 
 ### Roulette
 
-###### 
+###### A roulette wheel consists of a spinning disk with divisions around its edge that revolves around the base of a bowl. A ball is spun around the outside of the bowl until eventually ball and wheel come to rest with the ball in one of the divisions.
+
+###### The divisions around the wheel are numbered from 1 to 36 in a seemingly random pattern and alternate red and black. Additionally, there is a green division numbered 0. On American tables only there is a second extra green division marked 00 and it is largely this that makes the American version of Roulette a worse proposition financially than the European game.
+
+###### Prior to rolling the ball, people place bets on what number will come up by laying down chips on a betting mat, the precise location of the chips indicating the bet being made. Roulette is a game of French origin and on a traditional table, the French terms on the betting area are still used even in English speaking areas. However, on most US tables, English terms and a slightly different style of mat are used.
 
 ### Craps
 
