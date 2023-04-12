@@ -11,9 +11,9 @@
 * Blackjack managed by bots.
 * Money gained from each game with the goal of making the greatest amount possible.
 
-## Classes and Variables
+## Classes, Variables, and Functions
 
-###### Info here
+###### Main - tick, button1, button2, button3, button4, button5, hit, stand, tickholder, crepe, game, Button - l, w, x, y, typeholder, button, rollover, Craps - roll dice
 
 ## Notes
 
@@ -23,7 +23,7 @@
 
 ### Blackjack
 
-###### Info here
+###### 
 
 ### Roulette
 
