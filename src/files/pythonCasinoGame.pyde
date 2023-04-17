@@ -2,6 +2,7 @@
 
 from Button import Button
 from Craps import Craps
+from Blackjack import Blackjack
 tick = 0
 
 button1 = Button(440,250,750,700,"Roulette")
@@ -10,6 +11,7 @@ button3 = Button(440,250,750,260,"Craps")
 button4 = Button(380,350,1445,335,"Slots")
 button5 = Button(100,100,50,50,"home")
 crepe = Craps(100)
+failure = Blackjack(10)
 hit = Button(200,200,500,500,"hit")
 stand = Button(200,200,900,500,"stand")
 roll = Button(200,200,900,500,"roll")
@@ -29,7 +31,7 @@ def setup():
 
         
 def draw():
-    global tick, crepe, mainScreen, crapsboard, roll, sect, button1, button2, button3, button4, button5, game, hit, stand, tickholder
+    global failure, tick, crepe, mainScreen, crapsboard, roll, sect, button1, button2, button3, button4, button5, game, hit, stand, tickholder
     tick = tick + 1
     print(frameRate)
     if tick == 1:
@@ -84,6 +86,10 @@ def draw():
             
     elif game == "Blackjack":
         background(0,220,70)
+        is_player_turn = True
+        player_total = failure.get_total(failure.player_hand)
+        dealer_total = failure.get_total(failure.dealer_hand)
+        failure.print_game(player_total,dealer_total,is_player_turn)
         button5.Display()
         game = button5.CheckClick(game, "nav")
         if tick > tickholder + 60: 
