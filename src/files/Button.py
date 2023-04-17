@@ -22,9 +22,11 @@ class Button:
         elif type == "home":
             self.button = loadImage("Home.png")
         elif type == "hit":
-            self.button = loadImage("Craps.png")
+            self.button = loadImage("Hit.png")
         elif type == "stand":
-            self.button = loadImage("Roulette.png")
+            self.button = loadImage("Stand.png")
+        elif type == "roll":
+            self.button = loadImage("Roll.png")
         elif type == "Slots":
             self.button = loadImage("SlotMachine.png")
             self.rollover = loadImage("MachineRollover.png")
