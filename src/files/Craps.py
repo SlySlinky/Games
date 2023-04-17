@@ -1,4 +1,3 @@
-
 class Craps:
 
     bet = 0
