@@ -1,49 +1,52 @@
+class Button:
+    l = 0.0
+    w = 0.0
+    x = 0.0
+    y = 0.0
+    typeholder = ""
+    button = loadImage("Blackjack.png")
+    rollover = loadImage("Rollover.png")
+    
+    def __init__(self, l, w, x, y, type):
+        self.l = l
+        self.w = w
+        self.x = x
+        self.y = y
+        self.rollover = loadImage("Rollover.png")
+        if type == "Blackjack":
+            self.button = loadImage("Blackjack.png")
+        elif type == "Roulette":
+            self.button = loadImage("Roulette.png")
+        elif type == "Craps":
+            self.button = loadImage("Craps.png")
+        elif type == "home":
+            self.button = loadImage("Home.png")
+        elif type == "hit":
+            self.button = loadImage("Hit.png")
+        elif type == "stand":
+            self.button = loadImage("Stand.png")
+        elif type == "roll":
+            self.button = loadImage("Roll.png")
+        elif type == "Slots":
+            self.button = loadImage("SlotMachine.png")
+            self.rollover = loadImage("MachineRollover.png")
+        self.typeholder = type
 
-class Craps:
+    def Display(self):
+        self.button.resize(self.l,self.w)
+        image(self.button,self.x,self.y)
+        if self.l+self.x > mouseX and mouseX > self.x and self.w+self.y > mouseY and mouseY > self.y:
+            self.rollover.resize(self.l,self.w)  
+            image(self.rollover, self.x, self.y)
+    def CheckClick(self, screen, btype):
 
-    bet = 0
-    # theroll1 = 0
-    # theroll2 = 0
-    #sides = [one,two,three,four,five,six]
-    def __init__(self, bet):
-        self.bet = bet
-        
-    def rolldice(self, roll1, roll2):
-        one = loadImage("Die1.png")
-        two = loadImage("Die2.png")
-        three = loadImage("Die3.png")
-        four = loadImage("Die4.png")
-        five = loadImage("Die5.png")
-        six = loadImage("Die6.png")
-        one.resize(100,100)
-        two.resize(100,100)
-        three.resize(100,100)
-        four.resize(100,100)
-        five.resize(100,100)
-        six.resize(100,100)
-        if roll1 == 1:
-            image(one,width/2-100,height/2)
-        elif roll1 == 2:
-            image(two,width/2-100,height/2)     
-        elif roll1 == 3:
-            image(three,width/2-100,height/2)     
-        elif roll1 == 4:
-            image(four,width/2-100,height/2)        
-        elif roll1 == 5:
-            image(five,width/2-100,height/2)     
-        elif roll1 == 6:
-            image(six,width/2-100,height/2)       
-        if roll2 == 1:
-            image(one,width/2+100,height/2)
-        elif roll2 == 2:
-            image(two,width/2+100,height/2)          
-        elif roll2 == 3:
-            image(three,width/2+100,height/2)       
-        elif roll2 == 4:
-            image(four,width/2+100,height/2)    
-        elif roll2 == 5:
-            image(five,width/2+100,height/2)            
-        elif roll2 == 6:
-            image(six,width/2+100,height/2) 
-        # self.theroll1 = roll1
-        # self.theroll2 = roll2
+        if self.l+self.x > mouseX and mouseX > self.x and self.w+self.y > mouseY and mouseY > self.y and mousePressed:
+            if btype == "nav":
+                return self.typeholder
+            elif btype == "slct":
+                return screen
+        else:
+            if btype == "nav":
+                return screen
+            elif btype == "slct":
+                return ""
