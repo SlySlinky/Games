@@ -20,7 +20,7 @@ game = "home"
 sect = ""
 
 def setup():
-    fullScreen()
+    #fullScreen()
     global mainScreen
     frameRate(60)
     size(1920,1080)
@@ -44,8 +44,8 @@ def draw():
         button3 = Button(440,250,750,260,"Craps")
         button4 = Button(380,350,1445,335,"Slots")   
         button5 = Button(100,100,50,50,"home")
-        hit = Button(300,200,width/2-400,height/2,"hit")
-        stand = Button(300,200,width/2+100,height/2,"stand")
+        hit = Button(300,200,width/2-400,height/2+250,"hit")
+        stand = Button(300,200,width/2+100,height/2+250,"stand")
         roll = Button(300,200,width/2-150,height/2,"roll")
         sect = "home"
     if game == "home":
@@ -101,6 +101,7 @@ def draw():
             if choice == "hit":
                 print("you hit")
                 tickholder = tick
+                failure.player_hand.append(failure.deck.pop(int(random(1,len(failure.deck)+1))))
             elif choice == "stand":
                 print("you stand")
                 tickholder = tick
