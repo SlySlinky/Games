@@ -1,10 +1,14 @@
 John Sundberg - UI 
   25 hours across the entire duration of the project
+  
 Dallin Morgan - Game Logic 
   25 hours across the entire duration of the project
+  
 Connor Soelberg - Graphics + Github Mangement 
   25 hours across the entire duration of the project
+  
 Theo Mowdood - Presenter 
   4 hours across the entire duration of the project
+  
 Julian Hodges - Tester 
   0 hours across the entire duration of the project
