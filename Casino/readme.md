@@ -6,9 +6,11 @@
 
 ###### John - programmer
 
-###### Connor - graphics
+###### Connor - graphics + Github manager
 
-###### Theo - Github manager
+###### Theo - presenter
+
+###### Julian - Tester
 
 ## Render
 
