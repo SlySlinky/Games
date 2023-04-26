@@ -65,4 +65,4 @@
 
 ### Slots
 
-###### 
+###### A slot machine is a gambling device operated by inputing money into a machine and pulling a handle or pushing a button to activate one to three or more reels marked into horizontal segments by varying symbols. The machine pays off by dropping into a cup or trough from two to all the coins in the machine, depending on how and how many of the symbols line up when the rotating reels come to rest. Symbols include numbers and the word jackpot.
