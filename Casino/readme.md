@@ -53,7 +53,15 @@
 
 ### Craps
 
-###### 
+###### The game of craps has many exciting aspects to it. The concept of playing craps is to roll a number (a point) with two dice and then roll that same number again before a seven is rolled. The person at the craps table that rolls the dice is called “the shooter.”
+
+###### When there is a number marked by the “pucks,” it means that the number is the “point” of the game. This is the number that the shooter is trying to make before seven rolls.
+
+###### If the point is made, the puck is turned “off” and the shooter shoots again. It is now a “come out roll.” A “come out roll” means that it is the beginning of the game and there in no point established.
+
+###### If the next number that rolls is a 4, 5, 6, 8, 9 or 10, then that is the point of the game. The shooter again tries to shoot the point before seven. If seven rolls before the point, we call that a “seven out.” The shooter loses control of the dice and we give the dice to the next shooter.
+
+###### A new shooter makes a point and then tries to make the point before a seven, just as the previous shooter.
 
 ### Slots
 
