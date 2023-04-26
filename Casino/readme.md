@@ -10,7 +10,7 @@
 
 ###### Theo - presenter
 
-###### Julian - Tester
+###### Julian - tester
 
 ## Render
 
