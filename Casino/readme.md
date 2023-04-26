@@ -2,9 +2,9 @@
 
 ## People
 
-###### Dallin - programmer
+###### Dallin - game programmer
 
-###### John - programmer
+###### John - UI programmer
 
 ###### Connor - graphics + Github manager
 
