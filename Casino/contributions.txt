@@ -7,7 +7,7 @@ Dallin Morgan - Game Logic
 Connor Soelberg - Graphics + Github Mangement 
   25 hours across the entire duration of the project
   
-Theo Mowdood - Presenter 
+Theo Mowdood - Presenter + Tester
   17 hours across the entire duration of the project
   
 Julian Hodges - Tester 
