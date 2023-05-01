@@ -8,7 +8,7 @@ Connor Soelberg - Graphics + Github Mangement
   25 hours across the entire duration of the project
   
 Theo Mowdood - Presenter 
-  4 hours across the entire duration of the project
+  17 hours across the entire duration of the project
   
 Julian Hodges - Tester 
   0 hours across the entire duration of the project
