@@ -6,7 +6,7 @@
 
 ###### John - UI programmer
 
-###### Connor - graphics + Github manager
+###### Connor - graphics + GitHub manager
 
 ###### Theo - presenter
 
