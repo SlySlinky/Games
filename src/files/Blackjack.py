@@ -32,16 +32,11 @@ class Blackjack:
             elif cardvalue == 'A':
                 num_aces +=1
                 self.total += 11
-            else:
-                
+            else:                
                 self.total += int(cardvalue)
         while self.total > 21 and num_aces > 0:
             self.total -= 10
             num_aces -= 1
-        if self.total > 21:
-            text("You fool!", 250, 900)
-        elif self.total == 21:
-            text("Blaaaackjaaaaaaaack", 250, 900)
         return self.total
     def print_game(self, player_total, dealer_total, is_player_turn):
         self.player_total = player_total
@@ -49,7 +44,7 @@ class Blackjack:
         print()
         textSize(50)
         fill(0)
-        text("Player's total:"+ str(player_total), 500, 500)
+        text("Player's total:"+ str(player_total), 1500, 100)
         if is_player_turn:
             print()
         else:
