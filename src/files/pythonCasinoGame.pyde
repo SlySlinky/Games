@@ -105,7 +105,7 @@ def draw():
         tickholder = tick
         sect = "start"
         if game == "Blackjack":
-            if balance < 100:
+            if balance < 50:
                 game = "home"
             else:
                 balance = balance - 50
@@ -220,19 +220,25 @@ def draw():
                 balance = balance + 100 + 5*int(random(5,20))
                 sect = "claimmoney"
             elif dealer_total <= 21 and dealer_total > player_total:
-                text("Dealer wins!!", 1400,450)
+                text("Dealer wins!!", 1500,250)
             elif player_total <= 21 and player_total > dealer_total:
-                text("Player wins!!", 1400,450)
+                text("Player wins!!", 1500,250)
                 balance = balance + 100 + 5*int(random(5,20))
+                if player_total == 21:
+                    textSize(30)
+                    text("BLACKJACK!", width/2, height/2)
             elif player_total > 21 and dealer_total <= 21:
                 text("Player bust! Dealer wins!!", 1400,250)
                 text("You fool!", 250,900)
             elif dealer_total == 21:
-                text("Dealer gets Blackjack!!", 1400,300)
+                text("Dealer gets Blackjack!!", 1425,300)
                 if dealer_total > player_total  or dealer_total > 21 and player_total > 21:
                     text("Dealer wins!!", 1500,250)
                 elif dealer_total == player_total:
                     text("It's a tie!!", 1500,250)
+                    textSize(270)
+                    text("BLACKJACK!", width/2-600, height/2+100)
+                    textSize(50)
                     balance = balance + 50
             elif dealer_total == player_total:
                 text("It's a tie!!", 1500,250)
@@ -255,16 +261,23 @@ def draw():
             elif dealer_total < 21 and dealer_total > player_total or dealer_total > 21 and player_total > 21:
                 text("Dealer wins!!", 1500,250)
             elif player_total <= 21 and player_total > dealer_total:
+                if player_total == 21:
+                    textSize(270)
+                    text("BLACKJACK!", width/2-600, height/2+100)
+                    textSize(50)
                 text("Player wins!!", 1500,250)
             elif player_total > 21 and dealer_total <= 21:
                 text("Player bust! Dealer wins!!", 1400,250)
                 text("You fool!", 250,900)
             elif dealer_total == 21:
-                text("Dealer gets Blackjack!!", 1400,300)
+                text("Dealer gets Blackjack!!", 1425,300)
                 if dealer_total > player_total or dealer_total > 21 and player_total > 21:
                     text("Dealer wins!!", 1500,250)
                 elif dealer_total == player_total:
-                    text("It's a tie!!", 1500,250)           
+                    text("It's a tie!!", 1500,250)
+                    textSize(270)
+                    text("BLACKJACK!", width/2-600, height/2+100)
+                    textSize(50)           
             elif dealer_total == player_total:
                 text("It's a tie!!", 1500,250)
         elif sect == "pushbutton":
