@@ -19,14 +19,25 @@ class Button:
             self.button = loadImage("Roulette.png")
         elif type == "Craps":
             self.button = loadImage("Craps.png")
+        elif type == "Playagain":
+            self.button = loadImage("ButtonUp.png")
+            self.rollover = loadImage("ButtonUp.png")
+
         elif type == "home":
             self.button = loadImage("Home.png")
+        elif type == 'Help':
+            self.button = loadImage("Question.png")
+            self.rollover = loadImage("CircleRollover.png")
+        
         elif type == "hit":
             self.button = loadImage("Hit.png")
         elif type == "stand":
             self.button = loadImage("Stand.png")
         elif type == "roll":
             self.button = loadImage("Roll.png")
+        elif type == "spin":
+            self.button = loadImage("HandleUp.png")
+            self.rollover = loadImage("HandleUp.png")
         elif type == "Slots":
             self.button = loadImage("SlotMachine.png")
             self.rollover = loadImage("MachineRollover.png")
