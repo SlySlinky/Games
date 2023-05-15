@@ -25,11 +25,11 @@
 
 ## Classes, Variables, and Functions
 
-###### Main - tick, playagain, button1, button2, button3, button4, button5, help, spin, slug, failure, roll, thisthing, balance, sect, buttondown, slots, bgslots, bgbj, bgrou, money, thecurrentmoneytick, hit, stand, tickholder, crepe, game, 
-###### Blackjack - deck, player_hand, dealer_hand, player_total, dealer_total, total, ok, 
-###### Button - l, w, x, y, typeholder, button, rollover, 
-###### CardHolder - cardID, 
-###### Craps - bet, theroll1, theroll2, 
+###### Main - tick, playagain, button1, button2, button3, button4, button5, help, spin, slug, failure, roll, thisthing, balance, sect buttondown, slots, bgslots, bgbj, bgrou, money, thecurrentmoneytick, hit, stand, tickholder, crepe, game
+###### Blackjack - deck, player_hand, dealer_hand, player_total, dealer_total, total, ok
+###### Button - l, w, x, y, typeholder, button, rollover
+###### CardHolder - cardID
+###### Craps - bet, theroll1, theroll2
 ###### Slots - bet, theroll1, theroll2, theroll3, above1, above2, above3, below1, below2, below3
 
 ## Notes
