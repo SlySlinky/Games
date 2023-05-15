@@ -1,3 +1,3 @@
 # Games
 
-Two project ideas for Programming 1 class.
+Two project ideas for Programming 2 class.
